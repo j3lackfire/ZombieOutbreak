@@ -5,17 +5,51 @@ using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour {
 
-	#region UNITY_EDITOR
-	[SerializeField]Button NewGameButton;
-
-	[SerializeField]Button QuitGameButton;
-
+	#region PLAYER_PREFS
+	public static string VILLA_SCENE_KEY = "VILLA_HIGH_SCORE";
+	public static string JUNGLE_SCENE_KEY = "JUNGLE_HIGH_SCORE";
+	public static string FARM_SCENE_KEY = "FARM_HIGH_SCORE";
+	
 	#endregion
+
+	#region UNITY_EDITOR
+	[SerializeField]Button StartGameButton;
+
+	[SerializeField]Button BackButton;
+
+	[SerializeField]GameObject MainView;
+	[SerializeField]GameObject LevelSelectionView;
+	
+	[SerializeField]MainMenuPanel VillaPanel;
+	[SerializeField]MainMenuPanel JunglePanel;
+	[SerializeField]MainMenuPanel FarmPanel;
+	
+	#endregion
+
+	public static int villaScore = 0;
+	public static int jungleScore = 0;
+	public static int farmScore = 0;
 
 	private AsyncOperation async;
 	float timer = 1f;
+
 	void Awake() {
 		timer = 1f;
+		villaScore = PlayerPrefs.GetInt(VILLA_SCENE_KEY,0);
+		jungleScore = PlayerPrefs.GetInt(JUNGLE_SCENE_KEY,-1);
+		farmScore = PlayerPrefs.GetInt(FARM_SCENE_KEY,-1);
+
+		if (villaScore >= 15 && jungleScore == -1) {
+			jungleScore = 0;
+		}
+		if (jungleScore >= 15 && farmScore == -1) {
+			farmScore = 0;
+		}
+
+		VillaPanel.PanelSetUp(villaScore);
+		JunglePanel.PanelSetUp(jungleScore);
+		FarmPanel.PanelSetUp(farmScore);
+		
 	}
 
 	void Update() {
@@ -25,29 +59,26 @@ public class MainMenuController : MonoBehaviour {
 				async.allowSceneActivation = true;
 			}
 		}
-
-//		Debug.Log("Async is done !!!");
-//		timer -= Time.deltaTime;
-//		if (timer <= 0) {
-//			Debug.Log("Done with one second countdown");
-//			async.allowSceneActivation = true;
-//		}
-
 	}
 
 	void OnEnable(){
-		NewGameButton.onClick.AddListener (OnNewGameButtonClicked);
-		QuitGameButton.onClick.AddListener (OnQuitGameButtonClicked);
+		StartGameButton.onClick.AddListener (OnStartGameButtonClicked);
+		BackButton.onClick.AddListener(OnBackButtonClicked);
 	}
 
 	void OnDisable(){
-		NewGameButton.onClick.RemoveListener (OnNewGameButtonClicked);
-		QuitGameButton.onClick.RemoveListener (OnQuitGameButtonClicked);
+		StartGameButton.onClick.RemoveListener (OnStartGameButtonClicked);
+		BackButton.onClick.RemoveListener(OnBackButtonClicked);
 	}
 
-	void OnNewGameButtonClicked(){
-//		Application.LoadLevel ("2.1.FarmScene");
-		StartCoroutine(LoadScene());
+	void OnStartGameButtonClicked(){
+		MainView.gameObject.SetActive(false);
+		LevelSelectionView.gameObject.SetActive(true);
+	}
+
+	void OnBackButtonClicked() {
+		MainView.gameObject.SetActive(true);
+		LevelSelectionView.gameObject.SetActive(false);
 	}
 
 	IEnumerator LoadScene() {

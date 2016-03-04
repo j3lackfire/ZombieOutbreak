@@ -821,7 +821,7 @@ MonoBehaviour:
   ZombieDisplayName: Zombie-Penguin
   ZombieMaxHealth: 140
   ZombieHealth: 140
-  ZombieDamage: 20
+  ZombieDamage: 14
   ZombieAgressiveRange: 2
   ZombieAttackRange: 2.5
   MoveSpeed: 1
@@ -977,6 +977,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: ZombieDisplayName
       value: Zombie-Penguin
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ZombieDamage
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

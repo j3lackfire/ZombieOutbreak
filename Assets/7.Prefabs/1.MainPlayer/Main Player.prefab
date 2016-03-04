@@ -886,7 +886,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 143298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.7049999, y: 0, z: 26.3759995}
+  m_LocalPosition: {x: 100.900002, y: .370000005, z: 120.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 485406}
@@ -1287,6 +1287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootingLine: {fileID: 12002038}
+  GunDisplayName: Gun
   FlashingTime: .200000003
   gunDamage: 10
   positionOffset: {x: -.197999999, y: .118000001, z: .00999999978}
@@ -1296,7 +1297,7 @@ MonoBehaviour:
   CamShakeMagnitude: .0500000007
   CamShakeDuration: .00499999989
   thisGunFX: {fileID: 0}
-  AmmoCount: 0
+  ammoCount: 0
 --- !u!114 &11409670
 MonoBehaviour:
   m_ObjectHideFlags: 1

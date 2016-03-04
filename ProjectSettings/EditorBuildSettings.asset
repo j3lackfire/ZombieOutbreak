@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/1.Scenes/1.MainMenuScene.unity
   - enabled: 1
-    path: Assets/1.Scenes/2.1.FarmScene.unity
-  - enabled: 0
-    path: Assets/Envinronments/Demo/Demo2.unity
+    path: Assets/1.Scenes/2.1.JungleHouse.unity
+  - enabled: 1
+    path: Assets/1.Scenes/2.2.Mansion.unity
+  - enabled: 1
+    path: Assets/1.Scenes/2.3.Farm.unity

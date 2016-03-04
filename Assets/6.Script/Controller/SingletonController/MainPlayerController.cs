@@ -134,12 +134,20 @@ public class MainPlayerController : Singleton<MainPlayerController> {
 
 	#region MOVEMENT
 	IEnumerator FixYPosition() {
+		bool shoudEscape = false;
+//		if (Application.loadedLevelName != "2.1.JungleHouse") {
+//			shoudEscape = true;
+//		}
 		while (true) {
+			if (shoudEscape) {
+				break;
+			}
 			if (this.transform.position.y > 0.2f) {
 				this.transform.position = new Vector3(transform.position.x,0,transform.position.z);
 			}
 			yield return new WaitForSeconds(0.5f);
 		}
+		yield return null;
 	}
 
 	//this function is called every frame. 
@@ -305,6 +313,7 @@ public class MainPlayerController : Singleton<MainPlayerController> {
 	//this method is called by the Unity Animation Event, in the middle of the gun shot animation
 	public void GunShoot(){
 		currentGun.ShootBullet (shootingPosition);
+//		rigidbodyController.AddForce(new Vector3(0,0,0));
 //		Debug.Log ("<color=orange>Pew!!!</color>");
 	}
 
@@ -364,7 +373,7 @@ public class MainPlayerController : Singleton<MainPlayerController> {
 	}
 
 	IEnumerator ShowGameOverMenu() {
-		yield return new WaitForSeconds(1.5f);
+		yield return new WaitForSeconds(3.5f);
 		GameMenuController.Instance.OnPlayerDie();
 	}
 }

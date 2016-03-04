@@ -722,7 +722,7 @@ MonoBehaviour:
   ZombieDisplayName: Zombie-Bull
   ZombieMaxHealth: 360
   ZombieHealth: 360
-  ZombieDamage: 6
+  ZombieDamage: 12
   ZombieAgressiveRange: 2
   ZombieAttackRange: 3
   MoveSpeed: 2
@@ -845,7 +845,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: ZombieDamage
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
