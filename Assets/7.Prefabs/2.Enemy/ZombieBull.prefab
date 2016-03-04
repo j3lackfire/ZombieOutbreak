@@ -720,8 +720,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thisZombieType: 0
   ZombieDisplayName: Zombie-Bull
-  ZombieMaxHealth: 360
-  ZombieHealth: 360
+  ZombieMaxHealth: 280
+  ZombieHealth: 280
   ZombieDamage: 12
   ZombieAgressiveRange: 2
   ZombieAttackRange: 3
@@ -833,11 +833,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: ZombieMaxHealth
-      value: 360
+      value: 280
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: ZombieHealth
-      value: 360
+      value: 280
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: ZombieDisplayName
