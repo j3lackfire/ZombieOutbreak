@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: c721160f7bde14807b676cf2ed6359b1
+timeCreated: 1438534620
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Glock: {fileID: 11484644, guid: ecab9dd7ec5ec4c8d953fcf081e8c5b7, type: 2}
+  - DesertEagle: {fileID: 11479386, guid: b0b97b5beaf4b44fbbe7c9de83ad4170, type: 2}
+  - M4A1: {fileID: 11468766, guid: 61b93b426d3d143d0a06d97a8ad09951, type: 2}
+  - AK47: {fileID: 11457268, guid: 9bdb374a6b05043c2845d473ddfcfb74, type: 2}
+  - Shotgun: {fileID: 11462332, guid: 8cfac7381e2f94fe9b96e90a405633aa, type: 2}
+  - MachineGun: {fileID: 11445812, guid: 55b0c10c0821544c08235de61fd09cfa, type: 2}
+  - SMG: {fileID: 11485538, guid: 45a835508a66e49ebbb56a7d75334af3, type: 2}
+  - Sniper: {fileID: 11450304, guid: 1a16b548f2d5f41dda9cc161ad40a1fd, type: 2}
+  - PistolAnimator: {fileID: 22100000, guid: baf61432c3e7b4d35b97c7402fce9fb0, type: 2}
+  - RifleAnimator: {fileID: 22100000, guid: c104b7bec8fdd4ce78e2adf9d0e12cdc, type: 2}
+  - ShotgunAnimator: {fileID: 22100000, guid: ff554dc9060e5434d8a1afc427255102, type: 2}
+  - MachineGunAnimator: {fileID: 22100000, guid: 577a7860b671d45ad8ed449d79e76699,
+      type: 2}
+  - SMGAnimator: {fileID: 22100000, guid: ebaa6ac4b2fba4507aac979512a358a1, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

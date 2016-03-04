@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1dc6070d5295f416da5546cc4c4898db
+timeCreated: 1437933044
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - BullZombiePrefab: {fileID: 11422026, guid: 2a514ba6d25474ec08d12509e2ae0f0c, type: 2}
+  - BunnyZombiePrefab: {fileID: 11412866, guid: 789a3260416a9433c93a937e3053d6fd,
+      type: 2}
+  - GorillaZombiePrefab: {fileID: 11423594, guid: 7f2debaf325584a9b9e5dd8278fa9514,
+      type: 2}
+  - ZombieParentObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

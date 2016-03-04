@@ -1,0 +1,656 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103234
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 449742}
+  - 114: {fileID: 11412988}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &106138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 424394}
+  m_Layer: 0
+  m_Name: PickUps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &112232
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 440472}
+  - 114: {fileID: 11421272}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &117440
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 479004}
+  - 114: {fileID: 11495076}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125478
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 440194}
+  - 114: {fileID: 11493066}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &138304
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482852}
+  - 114: {fileID: 11453308}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &143248
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 431768}
+  - 114: {fileID: 11478056}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &143558
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 427622}
+  - 114: {fileID: 11421830}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145444
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470108}
+  - 114: {fileID: 11432784}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &148674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 427930}
+  - 114: {fileID: 11451946}
+  m_Layer: 0
+  m_Name: PickUpManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &173038
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488122}
+  - 114: {fileID: 11410516}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &184008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 407314}
+  m_Layer: 0
+  m_Name: PickUpContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193922
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 452620}
+  - 114: {fileID: 11443752}
+  m_Layer: 0
+  m_Name: PickUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407314
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 427930}
+  m_RootOrder: 0
+--- !u!4 &424394
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 452620}
+  - {fileID: 482852}
+  - {fileID: 449742}
+  - {fileID: 440194}
+  - {fileID: 479004}
+  - {fileID: 427622}
+  - {fileID: 440472}
+  - {fileID: 470108}
+  - {fileID: 431768}
+  - {fileID: 488122}
+  m_Father: {fileID: 427930}
+  m_RootOrder: 1
+--- !u!4 &427622
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 137.830002, y: 0, z: 65.4700012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 5
+--- !u!4 &427930
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 407314}
+  - {fileID: 424394}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &431768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 106.309998, y: 0, z: 51.4000015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 8
+--- !u!4 &440194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.4400024, y: 0, z: 16.2199993}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 3
+--- !u!4 &440472
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.0199966, y: 0, z: 68.1699982}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 6
+--- !u!4 &449742
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.3199997, y: 0, z: 15.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 2
+--- !u!4 &452620
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.6900005, y: 0, z: 38.9500008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 0
+--- !u!4 &470108
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 126.309998, y: 0, z: 29.1700001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 7
+--- !u!4 &479004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.6600037, y: 0, z: 36.3800011}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 4
+--- !u!4 &482852
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.4099998, y: 0, z: 58.6800003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 1
+--- !u!4 &488122
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.1500015, y: 0, z: 46.2299995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424394}
+  m_RootOrder: 9
+--- !u!114 &11410516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11412988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11421272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11421830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11432784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11443752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11451946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734e14ba4778b483f9226d36fcde48c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnTimer: 10
+  gunSpawnRate: 20
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+  PickUpSpawnPoints: []
+  hasSpawn: 
+  PickUpContainer: {fileID: 407314}
+--- !u!114 &11453308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11478056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11493066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!114 &11495076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41f226ce476470899d6005d605d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlockPrefab: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b, type: 2}
+  DesertEaglePrefab: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347, type: 2}
+  AK47Prefab: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67, type: 2}
+  M4A1Prefab: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1, type: 2}
+  SniperPrefab: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8, type: 2}
+  GlockWeight: 0
+  DesertEagleWeight: 50
+  AK47Weight: 30
+  M4A1Weight: 65
+  SniperWeight: 25
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: PickUpSpawnPoints.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GlockPrefab
+      value: 
+      objectReference: {fileID: 11463716, guid: 126c387cbfd214795b7e1afb3557859b,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: AK47Prefab
+      value: 
+      objectReference: {fileID: 11439968, guid: 5f4e9e2bdc3a345b9ba6c781df736f67,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: DesertEaglePrefab
+      value: 
+      objectReference: {fileID: 11467476, guid: b4ad47b1cf1b44d38a558c77b2dc7347,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: M4A1Prefab
+      value: 
+      objectReference: {fileID: 11436954, guid: d28e19606767f4e469f2c5052e2037f1,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: SniperPrefab
+      value: 
+      objectReference: {fileID: 11427366, guid: ca98de9020ec3456396a73912f2e0ca8,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 148674}
+  m_IsPrefabParent: 1

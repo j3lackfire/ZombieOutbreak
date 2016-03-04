@@ -1,0 +1,2 @@
+Enemy Information
++Zombie Bull: Fast speed, low health, low damage, slow turn speed.
