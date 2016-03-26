@@ -26257,11 +26257,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 22488702, guid: 9d1318892b98b43288e33516e0918955, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22488702, guid: 9d1318892b98b43288e33516e0918955, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 443052, guid: 9d1318892b98b43288e33516e0918955, type: 2}
       propertyPath: m_LocalPosition.x
@@ -26313,11 +26313,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22480622, guid: 9d1318892b98b43288e33516e0918955, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22480622, guid: 9d1318892b98b43288e33516e0918955, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 115018, guid: 9d1318892b98b43288e33516e0918955, type: 2}
       propertyPath: m_IsActive
