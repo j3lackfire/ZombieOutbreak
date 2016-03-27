@@ -6,6 +6,8 @@ public class TutorialController : Singleton<TutorialController> {
 	public int CurrentTutorialSteps;
 	public Image[] TutorialSteps;
 
+	public bool isTutorialShowing = false;
+
 	void Awake() {
 //		DontDestroyOnLoad(this.gameObject);
 		if (MainMenuController.villaScore == 0) {
@@ -18,12 +20,15 @@ public class TutorialController : Singleton<TutorialController> {
 	}
 
 	void Update() {
-		if (Input.GetMouseButtonDown(0)) {
-			NextTutorialStep();
+		if (isTutorialShowing) {
+			if (Input.GetMouseButtonDown(0)) {
+				NextTutorialStep();
+			}
 		}
 	}
 
 	public void ShowTutorial() {
+		isTutorialShowing = true;
 		this.GetComponent<Canvas>().enabled = true;
 		Time.timeScale = 0.0000001f;
 		CurrentTutorialSteps = 0;
@@ -51,6 +56,7 @@ public class TutorialController : Singleton<TutorialController> {
 		if (!GameMenuController.Instance.isGamePaused) {
 			Time.timeScale = 1f;
 		}
+		isTutorialShowing = false;
 	}
 
 }
