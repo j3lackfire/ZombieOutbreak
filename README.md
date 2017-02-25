@@ -8,4 +8,4 @@ Tap anywhere to move, and if you hold the aim button, then it's tap anywhere to 
 
 ## Game play video 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/D_z9yc0ElNE/0.jpg)](https://www.youtube.com/watch?v=D_z9yc0ElNE "Zombie out break game play")
-
+*click at the image to open youtube video*
