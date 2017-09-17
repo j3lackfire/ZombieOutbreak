@@ -19,7 +19,7 @@ public enum ZombieState{
 	Else
 }
 
-[RequireComponent(typeof(NavMeshAgent),typeof(ZombieAnimatorController),typeof(Rigidbody))]
+[RequireComponent(typeof(UnityEngine.AI.NavMeshAgent),typeof(ZombieAnimatorController),typeof(Rigidbody))]
 public class BaseZombieController : MonoBehaviour {
 
 #region Zombie_value
@@ -76,7 +76,7 @@ public class BaseZombieController : MonoBehaviour {
 	[SerializeField]ZombieAnimatorController ZombieAnimator;
 
 
-	NavMeshAgent navMeshAgent;
+	UnityEngine.AI.NavMeshAgent navMeshAgent;
 
 	protected Transform goal; //the target goal should be the player
 	
@@ -89,7 +89,7 @@ public class BaseZombieController : MonoBehaviour {
 
 	protected virtual void Start(){
 		goal = this.transform;
-		navMeshAgent = this.gameObject.GetComponent<NavMeshAgent> ();
+		navMeshAgent = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent> ();
 		navMeshAgent.destination = this.transform.position;
 		
 		

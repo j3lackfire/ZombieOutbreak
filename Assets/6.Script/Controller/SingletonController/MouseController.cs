@@ -14,16 +14,15 @@ public class MouseController : Singleton<MouseController> {
 
 	void Awake(){
 		mainCamera = CameraController.Instance.gameObject.GetComponent<Camera>();
-		if (Application.platform == RuntimePlatform.OSXEditor) {
-			useMouseInput = true;
-		}
-		else {
-			useMouseInput = false;
-		}
-	}
+#if UNITY_EDITOR     
+        useMouseInput = true;
+#else
+        useMouseInput = false;
+#endif
+    }
 
-	void Update() {
-		#region SINGLE MOUSE INPUT
+    void Update() {
+#region SINGLE MOUSE INPUT
 		if (useMouseInput || Input.touchCount == 1) {
 			if (Input.GetMouseButton (0)) {
 				ray = mainCamera.ScreenPointToRay(Input.mousePosition);
@@ -33,26 +32,20 @@ public class MouseController : Singleton<MouseController> {
 				//if the raycase hit something
 				if (Physics.Raycast (ray,out hitInfo,100f,layerMask)){
 					//return if player is touching on a game UI.
-					try{
-//						Debug.Log("Why it's not running ??");
-						if (Application.platform == RuntimePlatform.OSXEditor) {
-							if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject()){
-								//if player is click on the UI button
-								return;
-							}
+					if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+                    {
+						if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject()){
+							//if player is click on the UI button
+							return;
 						}
-						else {
-							if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)){
-								//if player is click on the UI button
-								return;
-							}
+					}
+					else {
+						if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)){
+							//if player is click on the UI button
+							return;
 						}
+					}
 
-					}
-					catch{
-						//why there is no event system ????
-						Debug.Log("<color=red>No event system</color>");
-					}
 					
 					//The command type, to be pass to the Data controller
 					CommandType PlayerCommandType = CommandType.MoveToPosition;
@@ -88,9 +81,9 @@ public class MouseController : Singleton<MouseController> {
 			}
 
 		}
-		#endregion
+#endregion
 
-		#region MULTI_INPUT
+#region MULTI_INPUT
 		if (Input.touchCount == 2) {
 			for(int i = 0; i < Input.touchCount; i ++) {
 				ray = mainCamera.ScreenPointToRay(Input.GetTouch(i).position);
@@ -156,7 +149,7 @@ public class MouseController : Singleton<MouseController> {
 		}
 
 
-		#endregion
+#endregion
 	}
 
 }

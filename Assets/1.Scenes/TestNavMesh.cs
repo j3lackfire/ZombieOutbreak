@@ -4,11 +4,11 @@ using System.Collections;
 public class TestNavMesh : MonoBehaviour {
 
 	public Transform goal;
-	NavMeshAgent pathFinder;
+	UnityEngine.AI.NavMeshAgent pathFinder;
 
 	void Awake(){
 		goal = GameObject.Find ("Goal").GetComponent<Transform>();
-		pathFinder = this.gameObject.GetComponent<NavMeshAgent> ();
+		pathFinder = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent> ();
 	}
 
 	void Update(){
