@@ -81,7 +81,6 @@ public class GunController : MonoBehaviour {
 
 		GunManager.Instance.PlayGunShot (this.gunType);
 		StartCoroutine(CameraController.Instance.SmallCameraShake (CamShakeMagnitude,CamShakeDuration));
-		ShootingLine.SetWidth (0.1f,0.1f);
 		if (this.gunType != GunType.Shotgun && this.gunType != GunType.Sniper) {
 			ShootingLine.SetPosition(0,ShootingLine.transform.position);
 			Vector3 endOfLine = new Vector3(endPos.x,ShootingLine.transform.position.y,endPos.z);
@@ -122,7 +121,8 @@ public class GunController : MonoBehaviour {
 						}
 					}
 				}
-				ShootingLine.SetPosition(1,ShootingLine.transform.position + direction * 20);
+                ShootingLine.SetPosition(0, ShootingLine.transform.position);
+                ShootingLine.SetPosition(1,ShootingLine.transform.position + direction * 20);
 			}
 
 		}
@@ -134,7 +134,8 @@ public class GunController : MonoBehaviour {
 	IEnumerator delayShutdown(){
 		yield return new WaitForSeconds(FlashingTime);
 		muzzleFlash.Stop ();
-		ShootingLine.SetWidth (0, 0);
+        ShootingLine.SetPosition(0, Vector3.zero);
+        ShootingLine.SetPosition(1, Vector3.zero);
 	}
 
 	public void AddAmmo(int amount) {
